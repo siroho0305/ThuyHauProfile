@@ -91,6 +91,7 @@
         transform: translateY(-20px);
 
         @media (max-width: 991px) {
+            margin-left: 0px;
             & > div {
                 text-align: center;
             }
@@ -99,12 +100,17 @@
         &--main {
             font-size: 35px;
             font-weight: bolder;
+            @media (max-width: 991px) {
+                font-size: 24px;
+            }
         }
 
         &--sub {
             font-size: 30px;
             font-style: italic;
-            
+            @media (max-width: 991px) {
+                font-size: 17px;
+            }
         }
     }
 }

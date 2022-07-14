@@ -7,4 +7,13 @@ body {
     width: 100vw;
     overflow-x: hidden;
     font-family: 'Alegreya Sans', sans-serif !important;
+    font-size: 14px !important;
+}
+
+.body {
+
+    &__title {
+        font-size: 18px;
+        font-weight: bold;
+    }
 }

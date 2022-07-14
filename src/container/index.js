@@ -7,6 +7,12 @@ const Container = props => {
         <div className="body">
             <Comp01/>
             <Comp02/>
+            <div>
+                ok
+            </div>
+            <div>
+                ok
+            </div>
         </div>
     )
 }
