@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../images/About.jpg"
 import School from "../images/School.jpg"
+import College from "../images/College.jpg"
 const Comp02 = props => {
     return (
         <div className="comp02">
@@ -32,6 +33,12 @@ const Comp02 = props => {
                     <img
                         alt="school"
                         src={School}
+                    />
+                </div>
+                <div className="comp02__college">
+                    <img
+                        alt="school"
+                        src={College}
                     />
                 </div>
                 <div className="comp02__major">

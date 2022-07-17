@@ -1,0 +1,32 @@
+.comp06 {
+    padding: 40px 0px;
+
+    &__slideItem{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    &__imgItem {
+        width: 300px;
+        height: 300px;
+        padding: 4px;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.8);
+
+        @media (max-width: 380px) {
+            width: 270px;
+            height: 270px;
+        }
+
+        & > img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.slick-list {
+    padding: 20px 0px !important;
+}

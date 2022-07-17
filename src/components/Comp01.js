@@ -25,7 +25,7 @@ const Comp01 = props => {
                             {"Nguyễn Thị Thúy Hậu"}
                         </div>
                         <div className="comp01__name--sub">
-                            {"Content creator"}
+                            {"Content creator, Editor"}
                         </div>
                     </div>
                 </div>
